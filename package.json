@@ -1,0 +1,17 @@
+{
+  "name": "app",
+  "version": "1.0.0",
+  "description": "app",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron index.js"
+  },
+  "keywords": [
+    "app"
+  ],
+  "author": "Tahfimul",
+  "license": "ISC",
+  "dependencies": {
+    "electron": "^2.0.2"
+  }
+}
