@@ -12,6 +12,7 @@
   "author": "Tahfimul",
   "license": "ISC",
   "dependencies": {
+    "bootstrap": "^3.3.7",
     "electron": "^2.0.2"
   }
 }
