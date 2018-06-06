@@ -1,80 +1,23 @@
 {
   "name": "app",
   "version": "1.0.0",
-<<<<<<< HEAD
   "description": "",
   "main": "index.js",
-  "build": {
-    "appId": "yourappid",
-    "category": "your.app.category.type",
-    "dmg": {
-      "contents": [
-        {
-          "x": 110,
-          "y": 150
-        },
-        {
-          "x": 240,
-          "y": 150,
-          "type": "link",
-          "path": "/Applications"
-        }
-      ]
-    },
-    "linux": {
-      "target": [
-        "AppImage",
-        "deb"
-      ]
-    },
-    "win": {
-      "target": "squirrel",
-      "icon": "build/icon.ico"
-    }
-  },
-=======
-<<<<<<< HEAD
-  "description": "",
-  "main": "index.js",
->>>>>>> 6dcd509bf49adc9d682068a6416958d600b0db43
   "dependencies": {
-    "electron": "^2.0.2"
+    "bootstrap": "^3.3.7"
   },
   "devDependencies": {},
   "scripts": {
-<<<<<<< HEAD
     "start": "electron index.js"
-  },
-  "author": "Tahfimul",
-  "license": "ISC"
-=======
-    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Tahfimul/ElectronApp.git"
-=======
-  "description": "app",
-  "main": "index.js",
-  "scripts": {
-    "start": "electron index.js"
->>>>>>> 87ba1266846df7ce8a4ab968625b13cd22f6367f
   },
-  "keywords": [
-    "app"
-  ],
   "author": "Tahfimul",
   "license": "ISC",
-<<<<<<< HEAD
   "bugs": {
     "url": "https://github.com/Tahfimul/ElectronApp/issues"
   },
   "homepage": "https://github.com/Tahfimul/ElectronApp#readme"
-=======
-  "dependencies": {
-    "bootstrap": "^3.3.7",
-    "electron": "^2.0.2"
-  }
->>>>>>> 87ba1266846df7ce8a4ab968625b13cd22f6367f
->>>>>>> 6dcd509bf49adc9d682068a6416958d600b0db43
 }
