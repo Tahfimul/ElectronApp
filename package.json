@@ -1,6 +1,7 @@
 {
   "name": "app",
   "version": "1.0.0",
+<<<<<<< HEAD
   "description": "",
   "main": "index.js",
   "dependencies": {
@@ -13,14 +14,27 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Tahfimul/ElectronApp.git"
+=======
+  "description": "app",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron index.js"
+>>>>>>> 87ba1266846df7ce8a4ab968625b13cd22f6367f
   },
   "keywords": [
     "app"
   ],
   "author": "Tahfimul",
   "license": "ISC",
+<<<<<<< HEAD
   "bugs": {
     "url": "https://github.com/Tahfimul/ElectronApp/issues"
   },
   "homepage": "https://github.com/Tahfimul/ElectronApp#readme"
+=======
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "electron": "^2.0.2"
+  }
+>>>>>>> 87ba1266846df7ce8a4ab968625b13cd22f6367f
 }
