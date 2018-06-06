@@ -10,6 +10,7 @@ app.on('ready', ()=>{
      minHeight: 800,
      backgroundColor: '#312450',
      show: true,
-     icon: path.join(__dirname, 'assets/icons/png/64x64.png')})
+     icon: path.join(__dirname, 'assets/icons/png/64x64.png'),
+     title: 'Attendance'})
   win.loadURL('file://' + __dirname + '/index.html')
 })
